@@ -33,10 +33,10 @@
         <button data-value="3" onclick="appendToResult('3')">3</button>
         <button class="operator" data-value="+" onclick="appendToResult('+')">+</button>
 
-        <button data-value="0">0</button>
-        <button data-value="00">00</button>
-        <button data-value=".">.</button>
-        <button class="operator" data-value="=">=</button>
+        <button data-value="0" onclick="appendToResult('0')">0</button>
+        <button data-value="00" onclick="appendToResult('00')">00</button>
+        <button data-value="." onclick="appendToResult('.')">.</button>
+        <button class="operator" data-value="=" onclick="calculateResult()">=</button>
       </div>
     </div>
   </body>
